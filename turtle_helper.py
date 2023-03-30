@@ -1,6 +1,7 @@
 import turtle
 
-s = turtle.getscreen()
+s = turtle.getscreen().bgcolor("orange")
+turtle.write("TIES4911 Audio Demo", font=("Arial", 16, "normal"))
 
 t = turtle.Turtle() # starts at right:
 
